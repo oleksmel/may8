@@ -19,7 +19,7 @@ body {
     margin-top: 70px;
     margin-right: 10px;
     /*margin: 70px 10px 20px 50px; margin 70*10*20*50 = margin-top and margin-right snd margin-botton and margin-left*/
-
+    padding: 25px;
 }
 
 .block2 {
@@ -28,4 +28,13 @@ body {
     background-color: red;
     border: 2px solid #000;
     /*margin-top: 20px;*/
+}
+
+.span {
+    color: #fff;
+    background-color: rgb(184, 112, 17);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    font-size: 14px;
 }

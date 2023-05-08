@@ -27,6 +27,7 @@ body {
     height: 100px;
     background-color: red;
     border: 2px solid #000;
+    margin: 25px;
     /*margin-top: 20px;*/
 }
 
@@ -37,4 +38,8 @@ body {
     border-radius: 20px;
     border: 2px solid #333;
     font-size: 14px;
+}
+
+.span.hide {
+    display: none;
 }

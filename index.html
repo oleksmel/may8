@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>CSS</title>
+
 </head>
 <body>
-    
-    <div class="block1">Block 1</div>
-    <div class="block2">Block 2</div>
-    
+    <div>
+        <div class="block1">Block 1</div>
+        <div class="block2">Block 2</div>
+        <span class="span">This is span</span>
+        <button class="hide">Hide</button>
+    </div>
 
+    <script>
+        const span = document.querySelector(".span")
+        const button = document.querySelector(".button")
 
-
+        button.addEventListener('click'), ( => {
+            span.classList.add('.hide');
+        })
+    </script>
 
 </body>
 </html>

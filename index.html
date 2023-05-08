@@ -12,16 +12,17 @@
     <div>
         <div class="block1">Block 1</div>
         <div class="block2">Block 2</div>
+
         <span class="span">This is span</span>
-        <button class="hide">Hide</button>
+        <button class="button">Hide</button>
     </div>
 
     <script>
-        const span = document.querySelector(".span")
-        const button = document.querySelector(".button")
+        const span = document.querySelector(".span");
+        const button = document.querySelector(".button");
 
         button.addEventListener("click", () => {
-            span.classList.add('hide');
+            span.classList.toggle('hide');
         })
     </script>
 

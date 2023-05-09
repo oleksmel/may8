@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 14px;
+}
+
 body {
     font-family: 'lato', sans-serif;
     height: 100%;

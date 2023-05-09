@@ -76,9 +76,16 @@ body {
 
 .div2 {
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .section1,.section2 {
     height: 100vh;
 }
+
+/*
+background
+background-color-задає колір фону
+background-image- задаємо фоном картинку
+*/
+

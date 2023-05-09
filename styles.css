@@ -71,13 +71,14 @@ body {
 }
 
 .div1 {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 .div2 {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 900;
 }
 
-.section1 {
+.section1,.section2 {
     height: 100vh;
 }

@@ -89,3 +89,7 @@ background-color-задає колір фону
 background-image- задаємо фоном картинку
 */
 
+.bg {
+    background-image: url(./IMG_0668.JPG);
+    height: 200px;
+}

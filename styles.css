@@ -88,6 +88,8 @@ background
 background-color-задає колір фону
 background-image- задаємо фоном картинку
 background-repeat - повторювання фону
+background-position: top,bottom,centr...
+
 */
 
 .bg {

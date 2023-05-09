@@ -87,9 +87,11 @@ body {
 background
 background-color-задає колір фону
 background-image- задаємо фоном картинку
+background-repeat - повторювання фону
 */
 
 .bg {
     background-image: url(./IMG_0668.JPG);
     height: 200px;
+    background-repeat: no-repeat;
 }
